@@ -1,0 +1,94 @@
+1. INGREDIENTI 
+
+Pasta sfoglia all'uovo verde
+ingredienti per ragù
+Carne bovina 300 g
+Carote 50 g
+Cipolle 50 g
+sedano 50 g
+passata di pomodoro 300 g
+vino rosso 100 g
+dado vegetale
+sale q.b 
+pepe q.b 
+1 cucchiaio olio extra vergine di oliva
+besciamella pronta 140 g
+burro 
+parmigiano
+
+2. Abbiamo tutti gli ingredienti?
+    2.1  : true -> Inizio a cucinare
+    2.2  : false -> Acquisto gli ingredienti -> torniamo al punto 2.
+
+//PREPARAZIONE
+
+3. Preparazione brodo
+    3.1 riempire la pentola d'acqua 
+    3.2 mettere sul fuoco (Z) la pentola  
+    3.3 L'acqua bolle?
+            3.3.1 : true -> aggiungere il dado
+            3.3.2 : false -> Aspettare che l'acqua bolle -> ritornare al punto 3.3
+    3.4 mescolare (Y)
+    3.5 lasciare cuocere a fuoco lento finchè non verrà usato tutto nel ragù
+
+4. Ripieno
+    4.1 prendere Carote 
+    4.2 prendere sedano
+    4.3 prendere Cipolle
+    4.4 triturare (X) gli ingredienti 4.1, 4.2, 4.3 
+    4.5 prendere la padella 
+    4.6 (Z) la padella
+    4.7 aggiungere olio 
+    4.8 l'olio è pronto?
+            : true-> aggiungere gli ingredienti al passo 4.4
+            : false ->  tornare al 4.8
+    4.9 il soffritto è pronto?
+            : true -> aggiungere la Carne
+            : false -> tornare al 4.9
+    4.10 (Y)        
+    4.11 la carne e il soffritto sono rosolati?
+            : true -> aggiungere il vino    
+            :false -> tornare al 4.11
+    4.12 (Y)        
+    4-13 il vino è sfumato?
+            : true -> aggiungere la passata di pomodoro
+            : false -> tornare al 4.12
+    4.14 aggiungere un mestolo di brodo 
+    4.15 (Y)     
+    4.16 il brodo si è asciugato?
+            : true ->  aggiungere brodo
+            : false -> tornare al 4.15
+    4.17 lasciare cuocere 2 ore nel mentre procedere con punto 5       
+
+5. cottura pasta lasagne
+    5.1 riempire d'acqua e (Z) pentola
+    5.2 acqua bolle?
+        : true -> aggiungere le sfoglie di lasagne
+        : false -> aspetta 5 min tornare al 5.2
+    5.3 lasciar cuocere al dente sfoglie lasagne 10 min
+    5.4 lasagne sono cotte al dente?
+        : true -> scolare 
+        : false -> aspettare 2min e tornare al 5.4
+    
+6.assemblaggio ingredienti
+    6.0 accendi il forno ventilato a 170 gradi
+    6.1 prendere una teglia alta e imburrare il fondo
+    6.2 stendere un mestolo di besciamella
+    6.3 stendere un mestolo di ragù 
+    6.4 stendere strato di sfoglia
+    6.5 ripetere punti 6.2, 6.3, 6,4  cinque volte
+    6.6 mettere il parmiggiano grattugiato
+    6.7 aggiungi scaglie di burro 
+
+7.cottura
+    7.1 forno è atemperatura di 170 gradi?
+        : true -> metti teglia in forno 
+        : false -> aspettare 5 min e tornare al 7.1
+    7.2 cuoci per 40min
+    7.3 prendi guanti da forno e estrai teglia 
+    7.4 fai raffreddare 10 min
+    7.5 servi nei piatti
+    7.6 assaggia 
+        : true -> è buona la mangio
+        : false -> piango e chiamo la nonna
+
