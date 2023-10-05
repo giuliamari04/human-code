@@ -1,94 +1,147 @@
-1. INGREDIENTI 
+Esercizio 4. Preparare le lasagne alla bolognese
 
-Pasta sfoglia all'uovo verde
-ingredienti per ragù
-Carne bovina 300 g
-Carote 50 g
-Cipolle 50 g
-sedano 50 g
-passata di pomodoro 300 g
-vino rosso 100 g
-dado vegetale
-sale q.b 
-pepe q.b 
-1 cucchiaio olio extra vergine di oliva
-besciamella pronta 140 g
-burro 
-parmigiano
+1. Leggere gli ingredienti
+
+    1.1 Pasta sfoglia all'uovo verde
+    1.2 ingredienti per ragù
+        1.2.1 Carne bovina 300g
+        1.2.2 Carote 50g
+        1.2.3 Cipolle dorate 50g
+        1.2.4 Sedano 50g
+        1.2.5 Passata di pomodoro 300g 
+        1.2.6 Vino rosso 100g
+        1.2.7 Brodo vegetale q.b.
+        1.2.8 Olio EVO 1 cucchiaio
+        1.2.9 Sale fino q.b.
+        1.2.10 Pepe nero q.b.
+    1.3. Besciamella pronta 140g
+    1.4. Burro
+    1.5. Parmigiano
 
 2. Abbiamo tutti gli ingredienti?
     2.1  : true -> Inizio a cucinare
-    2.2  : false -> Acquisto gli ingredienti -> torniamo al punto 2.
+    2.2  : false -> Acquisto gli ingredienti // poi tornare al punto 2.
 
-//PREPARAZIONE
+se 2.1....
 
-3. Preparazione brodo
-    3.1 riempire la pentola d'acqua 
-    3.2 mettere sul fuoco (Z) la pentola  
+3. Preparo il brodo
+    3.1 riempire pentola di acqua
+    3.2 mettere pentola sul fuoco (z)
     3.3 L'acqua bolle?
-            3.3.1 : true -> aggiungere il dado
-            3.3.2 : false -> Aspettare che l'acqua bolle -> ritornare al punto 3.3
+        3.3.1 : true -> aggiungere il dado
+        3.3.2 : false -> Attendere che l'acqua bolle // poi tornare al punto 3.3
     3.4 mescolare (Y)
-    3.5 lasciare cuocere a fuoco lento finchè non verrà usato tutto nel ragù
+    3.5 lasciar cuocere a fuoco basso
 
-4. Ripieno
-    4.1 prendere Carote 
-    4.2 prendere sedano
-    4.3 prendere Cipolle
-    4.4 triturare (X) gli ingredienti 4.1, 4.2, 4.3 
-    4.5 prendere la padella 
-    4.6 (Z) la padella
-    4.7 aggiungere olio 
+4. Preparare soffritto
+    4.1 Prendere carote 
+    4.2 Prendere cipolle 
+    4.3 Prendere sedano 
+    4.4 triturare (X) gli ingredienti
+    4.5 Prendere la padella
+    4.6 (Z) padella
+    4.7 aggiungere olio
     4.8 l'olio è pronto?
-            : true-> aggiungere gli ingredienti al passo 4.4
-            : false ->  tornare al 4.8
-    4.9 il soffritto è pronto?
-            : true -> aggiungere la Carne
-            : false -> tornare al 4.9
-    4.10 (Y)        
-    4.11 la carne e il soffritto sono rosolati?
-            : true -> aggiungere il vino    
-            :false -> tornare al 4.11
-    4.12 (Y)        
-    4-13 il vino è sfumato?
-            : true -> aggiungere la passata di pomodoro
-            : false -> tornare al 4.12
-    4.14 aggiungere un mestolo di brodo 
-    4.15 (Y)     
-    4.16 il brodo si è asciugato?
-            : true ->  aggiungere brodo
-            : false -> tornare al 4.15
-    4.17 lasciare cuocere 2 ore nel mentre procedere con punto 5       
+        4.8.1 : true -> aggiungere il trito degli ingredienti 4.1 4.2 e 4.3 
+        4.8.2 : false -> Attendere che l'olio si scaldi // poi tornare al punto 4.8
+    4.9 Il soffritto è pronto?
+        4.9.1 : true -> aggiungere il trito di carne
+        4.9.2 : false -> tornare al punto 4.9
+    4.10 (Y) 
+    4.11 La carne, nel soffritto, è rosolata?
+        4.11.1 : true -> aggiungere il vino rosso
+        4.11.2 : false -> tornare al punto 4.11
+    4.12 (Y)
+    4.13 Far sfumare il vino
+        4.13.1 true -> aggiungere passata di pomodoro
+        4.13.2 : false -> tornare al punto 4.13
+    4.14 far bollire il tutto
+    4.15 bolle?
+        4.15.1 true -> aggiungere il brodo (1/2 mestoli)
+        4.15.2 : false -> tornare al punto 4.15
+    4.16 (Y)
+    4.17 Il mix si è asciugato troppo?
+        4.17.1 true -> aggiungere ancora poco brodo
+        4.17.2 : false -> tornare al punto 4.15
+    4.18 Lasciar cuocere per 2 ore
 
-5. cottura pasta lasagne
-    5.1 riempire d'acqua e (Z) pentola
-    5.2 acqua bolle?
-        : true -> aggiungere le sfoglie di lasagne
-        : false -> aspetta 5 min tornare al 5.2
-    5.3 lasciar cuocere al dente sfoglie lasagne 10 min
-    5.4 lasagne sono cotte al dente?
-        : true -> scolare 
-        : false -> aspettare 2min e tornare al 5.4
-    
-6.assemblaggio ingredienti
-    6.0 accendi il forno ventilato a 170 gradi
-    6.1 prendere una teglia alta e imburrare il fondo
-    6.2 stendere un mestolo di besciamella
-    6.3 stendere un mestolo di ragù 
-    6.4 stendere strato di sfoglia
-    6.5 ripetere punti 6.2, 6.3, 6,4  cinque volte
-    6.6 mettere il parmiggiano grattugiato
-    6.7 aggiungi scaglie di burro 
+5. Preparare Besciamella
+    5.1 Prendere un pentolino
+    5.2 Versare nel pentolino il latte e scaldarlo senza farlo bollire
+    5.3 il latte è pronto?
+        5.3.1 true -> passare al punto 5.4
+        5.3.2 : false -> attendere e tornare a punto 5.3
+    5.4 Prendere un altro tegame per il burro 
+    5.5 versare il burro e lasciarlo sciogliere
+    5.6 il burro è sciolto?
+        5.6.1 true -> passare al punto 5.7
+        5.6.2 : false -> attendere e tornare a punto 5.6
+    5.7 aggiungere tutta la farina nel tegame che contiene il burro sciolto
+    5.8 (Y)
+    5.9 lasciar cuocere per pochi minuti fino ad ottenere un roux dorato
+    5.10 Ho ottenuto un roux dorato?
+        5.10.1 true -> passare al punto 5.11
+        5.10.2 : false -> attendere e tornare a punto 5.9
+    5.11 Versare il latte caldo in 3 volte e nel frattempo (Y)
+    5.12 Ho mescolato e versato tutto il latte?
+        5.12.1 true -> passare a 5.13
+        5.12.2 : false -> completare punto 5.11 e tornare a punto 5.12
+    5.13 Aggiungere sale nel tegame
+    5.14 Aggiungere noce moscata nel tegame per aromatizzare
+    5.15 (Y) 
+    5.16 La besciamella è cremosa?
+        5.16.1 true -> passare al punto 5.17
+        5.16.2 : false -> tornare a punto 5.15
+    5.17 Versare besciamella in una ciotolina, coprire con pellicola a contatto e tenere da parte
 
-7.cottura
-    7.1 forno è atemperatura di 170 gradi?
-        : true -> metti teglia in forno 
-        : false -> aspettare 5 min e tornare al 7.1
-    7.2 cuoci per 40min
-    7.3 prendi guanti da forno e estrai teglia 
-    7.4 fai raffreddare 10 min
-    7.5 servi nei piatti
-    7.6 assaggia 
-        : true -> è buona la mangio
-        : false -> piango e chiamo la nonna
+6. Preparazione sfoglia
+    6.1 Prendere una pentola e versare acqua
+    6.2 salare acqua
+    6.3 accendere fuoco e far bollire acqua
+    6.4 Acqua bolle?
+        6.4.1 : true -> passare al punto 6.5
+        6.4.2 : false -> tornare a punto 6.4
+    6.5 far cuocere 1 sfoglia alla volta per 30/40 secondi e scolarla con una schiumarola
+    6.6 sfoglia è pronta?
+        6.6.1 : true -> passare al punto 6.7
+        6.6.2 : false -> tornare a punto 6.5
+    6.7 Trasferire sfoglia su un vassoio con un canovaccio e tamponare per togliere l'acqua in eccesso. Proseguire in questo modo affiancando le sfoglie cotte, senza sovrapporle. 
+
+7. controllare se il ragù è pronto quando sono trascorse 2 ore
+    7.1 : true -> passare al punto 8
+    7.2 : false -> tornare a punto 7
+
+8. composizione lasagna
+    8.1 Prendere una teglia 30x20 e imburrarne il fondo
+    8.2 Aggiungere uno strato di besciamella [inizio passaggio K]
+    8.3 Aggiungere uno strato di ragù
+    8.4 Aggiungere una sfoglia [fine passaggio K]
+    8.5 ripetere[K] aggiungendo il parmigiano grattugiato prima della sfoglia [K+P]
+    8.6 ripetere [K+P] fino a realizzare 5 strati
+    8.7 ho realizzato 5 strati correttamente?
+        8.7.1 : true -> passare al punto 8.8
+        8.7.2 : false -> tornare a punto 8.6
+    8.8 aggiungere ragù
+    8.9 aggiungere parmigiano grattugiato e ciuffetti di burro 
+    8.10 la lasagna è completa?
+        8.10.1 : true -> passare al punto 9.
+        8.10.2 : false -> tornare a punto 8.8
+
+9. Cuocere lasagna 
+    9.1 accendere forno a 170° 
+    9.2 il forno ha raggiunto la temperatura di cottura?
+        9.2.1 : true -> passare al punto 9.3
+        9.2.2 : false -> tornare a punto 9.2
+    9.3 Infornare la lasagna per 40 minuti
+    9.4 Trascorsi i 40 minuti la lasagna è pronta?
+        9.4.1 : true -> attendere e passare al punto 9.4
+        9.4.2 : false -> tornare a punto 9.5
+    9.5 Tagliare ed impiattare la lasagna
+    9.6 Servire la lasagna a tavola (dare la fetta migliore alla nonna)
+
+10. Mo' se magna!
+    10.1 La lasagna è buona?
+        10.1.1 : true -> mangiala tutta, sii felice e preparati a rifarla
+        10.1.2 : false -> piangi e dillo sia alla mamma che all'avvocato, dopodichè ordina una pizza 
+
 
